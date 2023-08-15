@@ -1,0 +1,65 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    border: 1px solid black;
+    margin-top: 25vh;
+    width: 300px;
+    padding: 15px;
+    
+}
+
+body {
+    background-image: url(tritankysta.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0 15px;
+    text-align: center;
+    font-family: 'theBoldo';
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 10px;
+    text-shadow: 1px 1px grey;
+}
+
+.botao {
+    margin: 5px;
+}
+
+@font-face {
+    font-family: 'theBoldo';
+    src: url(Mockery.ttf);
+}
+h1{
+    font: 600 30px 'theBoldo';
+    text-align: center;
+}
